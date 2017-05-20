@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiResourceLocking="true" path="/Hotel" docBase="myApp"
+         crossContext="true" reloadable="true">
+    <Resource name="jdbc/hoteldb"
+              driverClassName="com.mysql.jdbc.Driver"
+              maxTotal="32"
+              maxIdle="8"
+              maxWaitMillis="10000"
+              username="root"
+              password="root"
+              type="javax.sql.DataSource"
+              url="jdbc:mysql://localhost:3306/hoteldb?useSSL=false&amp;useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC"
+              validationQuery="SELECT 1"
+              auth="Container"/>
+</Context>

@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+body {
+    background: #0ca3d2;
+    color: #252525;
+}
+
+#avatar {
+    margin: auto 10px;
+    height: 70px;
+    width: auto;
+}
+
+#role {
+    margin: 20px auto;
+}
+
+#logout {
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 10px 30px;
+    border: none;
+    color: #555555;
+    height: 50px;
+    width: auto;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+table {
+    border: 7px solid #3E3E3E;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table select {
+    float: left;
+}
+
+table button {
+    width: 150px;
+    height: 50px;
+    margin: 10px 10px;
+    font-size: 18px;
+    border: none;
+    color: #555555;
+    cursor: pointer;
+}
+
+th, td {
+    border: 1px solid #3E3E3E;
+    border-collapse: collapse;
+    padding: 10px;
+    height: 80px;
+    text-align: center;
+}
+
+th {
+    background: #3E3E3E;
+    color: #ffffff;
+    font: 20px/1.5 "Times New Roman", Verdana, Arial, sans-serif;
+}
+
+tr {
+    font: 18px/1.5 "Times New Roman", Verdana, Arial, sans-serif;
+}
+
+tr:nth-child(odd) {
+    background: #D8FFFF;
+}
+
+tr:nth-child(even) {
+    background: #f0f0f0;
+}
+
+header {
+    height: 70px;
+    background: #252525;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#order_form {
+    padding: 10px;
+    background: #f0f0f0;
+}
+
+#order_form * {
+    margin: 10px 20px;
+}
+
+#reservations_table {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#cancel_reservation {
+    font-size: 18px;
+    border: none;
+}
+
+#wrapper {
+    padding: 20px;
+}
+
+#type_selector, #capacity_selector {
+    height: 16%;
+    float: left;
+}
+
+#arrival_date, #departure_date {
+    margin-top: -10px;
+    float: left;
+}
+
+#search {
+    margin-top: -30px;
+    font-size: 28px;
+    border-radius: 40px;
+    border: none;
+}
+
+#wrapper button {
+    color: #555555;
+    cursor: pointer;
+    float: right;
+    padding: 15px 30px;
+}
+
+#order_form {
+    text-align: center;
+}
+
+#back {
+    padding: 10px 30px;
+    border: none;
+    color: #555555;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+#main_wrapper {
+    max-width: 1388px;
+    margin: auto;
+}
+
+#table_title {
+    margin: 15px;
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+#booking_wrapper {
+    font-size: 30px;
+    width: 860px;
+    margin: auto;
+}
+
+#booking_table {
+    width: 100%;
+}
+
+#booking_form {
+    width: 40%;
+}
+
+button:hover {
+    background: #F8F8F8;
+}
+
+#empty_table_information {
+    padding: 20px;
+    text-align: center;
+    background: #D8FFFF;
+}

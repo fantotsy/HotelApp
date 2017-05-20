@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+body {
+    background: #0ca3d2;
+    color: #252525;
+}
+
+#icon {
+    margin: auto 10px;
+    height: 70px;
+    width: auto;
+    float: left;
+}
+
+#role {
+    float: left;
+    margin: 20px auto;
+}
+
+#logout {
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+    padding: 10px 30px;
+    border: none;
+    color: #555555;
+    height: 50px;
+    width: auto;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#greeting {
+    margin-top: 15px;
+    margin-left: 190px;
+    float: left;
+}
+
+#actions {
+    width: 560px;
+    margin: auto;
+    padding: 20px;
+}
+
+#actions button {
+    color: #555555;
+    cursor: pointer;
+}
+
+#actions * {
+    padding: 30px;
+    width: 500px;
+    text-align: center;
+    font-size: 38px;
+}
+
+table {
+    border: 7px solid #3E3E3E;
+    border-collapse: collapse;
+}
+
+#info_table {
+    width: 100%;
+}
+
+#info_table button {
+    padding: 10px 10px;
+    width: 100px;
+    text-align: center;
+    border: none;
+    color: #555555;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#info_table input[type=text] {
+    width: 75px;
+    height: 30px;
+    font-size: 15px;
+}
+
+th, td {
+    border: 1px solid #3E3E3E;
+    border-collapse: collapse;
+    padding: 10px;
+    height: 80px;
+    text-align: center;
+}
+
+th {
+    background: #3E3E3E;
+    color: #ffffff;
+    font: 20px/1.5 "Times New Roman", Verdana, Arial, sans-serif;
+}
+
+tr {
+    font: 18px/1.5 "Times New Roman", Verdana, Arial, sans-serif;
+}
+
+tr:nth-child(odd) {
+    background: #D8FFFF;
+}
+
+tr:nth-child(even) {
+    background: #f0f0f0;
+}
+
+header {
+    height: 70px;
+    background: #252525;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#back {
+    padding: 10px 30px;
+    border: none;
+    color: #555555;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+#main_wrapper {
+    max-width: 1388px;
+    margin: auto;
+}
+
+#table_wrapper {
+    width: 860px;
+    margin: auto;
+}
+
+button:hover {
+    background: #F8F8F8;
+}
